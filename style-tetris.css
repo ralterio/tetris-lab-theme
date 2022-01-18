@@ -1,0 +1,540 @@
+.tetrisbg > .container > .row{text-align: right;}
+
+.tetrisbg {
+  width: 300px;
+  /* height: 400px; */
+  height: auto;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  /* border: 1px solid red; */
+}
+
+.a, .b, .c, .d, .e, .f, .g, .h, .i, .j {
+  background: #fff;
+  border: 4px solid;
+  border-color: #fff;
+  height: 36px;
+  width: 36px;
+  display: inline-block;
+}
+
+.a:nth-child(2) {
+  position: relative;
+  animation-name: primaryLight;
+  animation-duration: .5s;
+}
+
+.b:nth-child(2) {
+  position: relative;
+  animation-name: primaryLight;
+  animation-duration: .5s;
+}
+
+.c:nth-child(2) {
+  position: relative;
+  animation-name: primaryLight;
+  animation-duration: .5s;
+}
+
+.c:nth-child(3) {
+  position: relative;
+  animation-name: primaryLight, secondaryLight, secondaryLight;
+  animation-duration: .5s;
+  animation-delay: 0s, 13s, 13.5s;
+}
+
+.d:nth-child(2) {
+  position: relative;
+  animation-name: primaryLight;
+  animation-duration: .5s;
+  animation-delay: .5s;
+}
+
+.d:nth-child(3) {
+  position: relative;
+  animation-name: primaryLight, secondaryLight, secondaryLight;
+  animation-duration: .5s;
+  animation-delay: .5s, 13.5s, 14s;
+}
+
+.d:nth-child(4) {
+  position: relative;
+  animation-name: primaryLight, primary;
+  animation-duration: 1s, .5s;
+  animation-delay: .5s, 17.5s;
+}
+
+.c:nth-child(4) {
+  position: relative;
+  animation-name: primaryLight, primary;
+  animation-duration: .5s;
+  animation-delay: .5s, 17s;
+}
+
+.e:nth-child(2) {
+  position: relative;
+  animation-name: primaryLight;
+  animation-duration: .5s;
+  animation-delay: 1s;
+}
+
+.e:nth-child(3) {
+  position: relative;
+  animation-name: primaryLight, secondaryLight;
+  animation-duration: .5s, 1s;
+  animation-delay: 1s, 14s;
+}
+
+.e:nth-child(4) {
+  position: relative;
+  animation-name: primaryLight, primary;
+  animation-duration: 1s, .5s;
+  animation-delay: 1s, 18s;
+}
+
+
+.f:nth-child(2) {
+  position: relative;
+  animation-name: primaryLight;
+  animation-duration: .5s;
+  animation-delay: 1.5s;
+}
+
+.f:nth-child(3) {
+  position: relative;
+  animation-name: primaryLight, secondaryLight;
+  animation-duration: .5s, 1s;
+  animation-delay: 1.5s, 14.5s;
+}
+
+.f:nth-child(4) {
+  position: relative;
+  animation-name: primaryLight, primary;
+  animation-duration: 1s, .5s;
+  animation-delay: 1.5s, 18.5s;
+}
+
+.g:nth-child(2) {
+  position: relative;
+  animation-name: primaryLight;
+  animation-duration: .5s;
+  animation-delay: 2s;
+}
+
+.g:nth-child(3) {
+  position: relative;
+  animation-name: primaryLight, secondaryLight;
+  animation-duration: .5s, 1s;
+  animation-delay: 2s, 15s;
+}
+
+.g:nth-child(4) {
+  position: relative;
+  animation-name: primaryLight, primary;
+  animation-duration: 1s, .5s;
+  animation-delay: 2s, 19s;
+}
+
+.h:nth-child(2) {
+  position: relative;
+  animation-name: primaryLight;
+  animation-duration: .5s;
+  animation-delay: 2.5s;
+}
+
+.h:nth-child(3) {
+  position: relative;
+  animation-name: primaryLight, secondaryLight;
+  animation-duration: .5s, 1s;
+  animation-delay: 2.5s, 15.5s;
+  animation-fill-mode: none, forwards;
+}
+
+.h:nth-child(4) {
+  position: relative;
+  animation-name: primaryLight, primary;
+  animation-duration: 1s, .5s;
+  animation-delay: 2.5s, 19.5s;
+  animation-fill-mode: none, forwards;
+}
+
+.i:nth-child(2) {
+  position: relative;
+  animation-name: primaryLight;
+  animation-duration: .5s;
+  animation-delay: 3s;
+}
+
+.i:nth-child(3) {
+  position: relative;
+  animation-name: primaryLight, secondaryLight;
+  animation-duration: .5s;
+  animation-delay: 3s, 16s;
+  animation-fill-mode: none, forwards;
+}
+
+.i:nth-child(4) {
+  position: relative;
+  animation-name: primaryLight;
+  animation-duration: 1.5s;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+}
+
+.j:nth-child(2) {
+  position: relative;
+  animation-name: primaryLight;
+  animation-duration: .5s;
+  animation-delay: 3.5s;
+  animation-fill-mode: forwards;
+}
+
+.j:nth-child(3) {
+  position: relative;
+  animation-name: primaryLight;
+  animation-duration: .5s;
+  animation-delay: 3.5s;
+  animation-fill-mode: forwards;
+}
+
+.j:nth-child(4) {
+  position: relative;
+  animation-name: primaryLight;
+  animation-duration: .5s;
+  animation-delay: 3.5s;
+  animation-fill-mode: forwards;
+}
+
+
+.a:nth-child(5) {
+  position: relative;
+  animation-name: secondaryDark, primary;
+  animation-duration: .5s;
+  animation-delay: 4s, 16s;
+}
+
+.a:nth-child(6) {
+  position: relative;
+  animation-name: secondaryDark, primary;
+  animation-duration: .5s;
+  animation-delay: 4s, 16s;
+}
+
+.b:nth-child(5) {
+  position: relative;
+  animation-name: secondaryDark, primary;
+  animation-duration: 1s, 0.5s;
+  animation-delay: 4s, 16.5s;
+}
+
+.b:nth-child(6) {
+  position: relative;
+  animation-name: secondaryDark, primary;
+  animation-duration: 1s, 0.5s;
+  animation-delay: 4s, 16.5s;
+}
+
+.c:nth-child(5) {
+  position: relative;
+  animation-name: secondaryDark, primary;
+  animation-duration: 1s, 0.5s;
+  animation-delay: 4.5s, 17s;
+}
+
+.c:nth-child(6) {
+  position: relative;
+  animation-name: secondaryDark, primary;
+  animation-duration: 1s, 0.5s;
+  animation-delay: 4.5s, 17s;
+}
+
+.d:nth-child(5) {
+  position: relative;
+  animation-name: secondaryDark, primary;
+  animation-duration: 1s, 0.5s;
+  animation-delay: 5s, 17.5s;
+}
+
+.d:nth-child(6) {
+  position: relative;
+  animation-name: secondaryDark, primary;
+  animation-duration: 1s, 0.5s;
+  animation-delay: 5s, 17.5s;
+}
+
+.e:nth-child(5) {
+  position: relative;
+  animation-name: secondaryDark, primary;
+  animation-duration: 1s, .5s;
+  animation-delay: 5.5s, 18s;
+}
+
+.e:nth-child(6) {
+  position: relative;
+  animation-name: secondaryDark, primary;
+  animation-duration: 1s, .5s;
+  animation-delay: 5.5s, 18s;
+}
+
+.f:nth-child(5) {
+  position: relative;
+  animation-name: secondaryDark, primary;
+  animation-duration: 1s, .5s;
+  animation-delay: 6s, 18.5s;
+}
+
+.f:nth-child(6) {
+  position: relative;
+  animation-name: secondaryDark, primary;
+  animation-duration: 1s, .5s;
+  animation-delay: 6s, 18.5s;
+}
+
+.g:nth-child(5) {
+  position: relative;
+  animation-name: secondaryDark, primary;
+  animation-duration: 1s, .5s;
+  animation-delay: 6.5s, 19s;
+}
+
+.g:nth-child(6) {
+  position: relative;
+  animation-name: secondaryDark, primary;
+  animation-duration: 1s, .5s;
+  animation-delay: 6.5s, 19s;
+}
+
+.h:nth-child(5) {
+  position: relative;
+  animation-name: secondaryDark, primary;
+  animation-duration: 1s, .5s;
+  animation-delay: 7s, 19.5s;
+  animation-fill-mode: none, forwards;
+}
+
+.h:nth-child(6) {
+  position: relative;
+  animation-name: secondaryDark, primary;
+  animation-duration: 1s, .5s;
+  animation-delay: 7s, 19.5s;
+  animation-fill-mode: none, forwards;
+}
+
+.i:nth-child(5) {
+  position: relative;
+  animation-name: secondaryDark;
+  animation-duration: 1s;
+  animation-delay: 7.5s;
+  animation-fill-mode: forwards;
+}
+
+.i:nth-child(6) {
+  position: relative;
+  animation-name: secondaryDark;
+  animation-duration: 1s;
+  animation-delay: 7.5s;
+  animation-fill-mode: forwards;
+}
+
+.j:nth-child(5) {
+  position: relative;
+  animation-name: secondaryDark;
+  animation-duration: .5s;
+  animation-delay: 8s;
+  animation-fill-mode: forwards;
+}
+
+.j:nth-child(6) {
+  position: relative;
+  animation-name: secondaryDark;
+  animation-duration: .5s;
+  animation-delay: 8s;
+  animation-fill-mode: forwards;
+}
+
+.a:nth-child(1) {
+  position: relative;
+  animation-name: secondaryLight;
+  animation-duration: .5s;
+  animation-delay: 8.5s;
+}
+
+.b:nth-child(1) {
+  position: relative;
+  animation-name: secondaryLight;
+  animation-duration: 1s;
+  animation-delay: 8.5s;
+}
+
+.c:nth-child(1) {
+  position: relative;
+  animation-name: secondaryLight;
+  animation-duration: 1.5s;
+  animation-delay: 8.5s;
+}
+
+.d:nth-child(1) {
+  position: relative;
+  animation-name: secondaryLight;
+  animation-duration: 2s;
+  animation-delay: 8.5s;
+}
+
+.e:nth-child(1) {
+  position: relative;
+  animation-name: secondaryLight;
+  animation-duration: 2s;
+  animation-delay: 9s;
+}
+
+.f:nth-child(1) {
+  position: relative;
+  animation-name: secondaryLight;
+  animation-duration: 2s;
+  animation-delay: 9.5s;
+}
+
+.g:nth-child(1) {
+  position: relative;
+  animation-name: secondaryLight;
+  animation-duration: 2s;
+  animation-delay: 10s;
+  animation-fill-mode: forwards;
+}
+
+.h:nth-child(1) {
+  position: relative;
+  animation-name: secondaryLight;
+  animation-duration: 1.5s;
+  animation-delay: 10.5s;
+  animation-fill-mode: forwards;
+}
+
+.i:nth-child(1) {
+  position: relative;
+  animation-name: secondaryLight;
+  animation-duration: 1s;
+  animation-delay: 11s;
+  animation-fill-mode: forwards;
+}
+
+.j:nth-child(1) {
+  position: relative;
+  animation-name: secondaryLight;
+  animation-duration: .5s;
+  animation-delay: 11.5s;
+  animation-fill-mode: forwards;
+}
+
+/* start randall */
+.a:nth-child(3) {
+  position: relative;
+  animation-name: secondaryLight, secondaryLight;
+  animation-duration: .5s;
+  animation-delay: 12s, 12.5s;
+}
+
+.b:nth-child(3) {
+  position: relative;
+  animation-name: secondaryLight;
+  animation-duration: 1s;
+  animation-delay: 12.5s, 12.5s;
+}
+
+/* last tetris */
+.a:nth-child(4) {
+  position: relative;
+  animation-name: primary;
+  animation-duration: .5s;
+  animation-delay: 16s;
+}
+
+.b:nth-child(4) {
+  position: relative;
+  animation-name: primary;
+  animation-duration: .5s;
+  animation-delay: 16.5s;
+}
+
+/* .e:nth-child(3) {
+  position: relative;
+  animation-name: secondaryLight;
+  animation-duration: .5s;
+  animation-delay: 14s;
+} */
+
+/* .f:nth-child(3) {
+  position: relative;
+  animation-name: secondaryLight;
+  animation-duration: .5s;
+  animation-delay: 14.5s;
+} */
+
+/* .g:nth-child(3) {
+  position: relative;
+  animation-name: secondaryLight;
+  animation-duration: .5s;
+  animation-delay: 15s;
+} */
+
+/* .h:nth-child(3) {
+  position: relative;
+  animation-name: secondaryLight;
+  animation-duration: .5s;
+  animation-delay: 15.5s;
+} */
+
+/* .i:nth-child(3) {
+  position: relative;
+  animation-name: secondaryLight;
+  animation-duration: .5s;
+  animation-delay: 16s;
+  animation-fill-mode: forwards;
+} */
+
+/* end randall */
+
+@keyframes primary {
+  0% {
+    background-color: #fff;
+  }
+  100% {
+    background-color: #262626;
+    border: 4px solid;
+  }
+}
+
+@keyframes primaryLight {
+  0% {
+    background-color: #fff;
+  }
+  100% {
+    background-color: #4E4E4E;
+    border: 4px solid;
+  }
+}
+
+@keyframes secondaryDark {
+  0% {
+    background-color: #fff;
+  }
+  100% {
+    background-color: #0000ca;
+    border: 4px solid;
+  }
+}
+
+@keyframes secondaryLight {
+  0% {
+    background-color: #fff;
+  }
+  100% {
+    background-color: #7142ff;
+    border: 4px solid;
+  }
+}
+
+
+@media (max-width: 767px) {
+    .tetrisbg > .container > .row{text-align: center;}
+}
