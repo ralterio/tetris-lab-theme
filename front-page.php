@@ -5,7 +5,19 @@
 <div class="hero">
         <div class="hero__sx">
             <p id="question__hero">Ti serve aiuto per la tua attività online?</p>
+            <!-- Inizio mod.
 			<h1 id="hero__title">Digitalizziamo il tuo brand.</h1>
+            fine mod.-->
+            <h1 id="hero__title">
+                <div class="hero__flex">
+                    <div class="container-animation">
+                        <div class="header-sub-title" id="word"></div><div>&nbsp</div>
+                        <!-- <div class="header-sub-title" ></div>Digitalizziamo<div>&nbsp</div> -->
+                    </div>
+                    <!-- <div class="header-sub-title blink">|</div> -->
+                    <div class="header-sub-title">il tuo brand.</div>
+                </div>
+            </h1>
             <p id="hero__subtitle">Uniamo <b>immaginazione</b> e <b> tecnologia</b> per aiutare la tua azienda a crescere.</p>
 
             <div class="container__cta__start_project">

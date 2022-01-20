@@ -1,0 +1,58 @@
+/*
+Theme Name: Tetris Lab Theme
+Theme URI:
+Author: Randall Alterio
+Author URI: https://wordpress.org/
+Description: Wordpress Theme for Tetris Lab
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: tlt
+Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-ready, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+
+*/
+
+.blink {
+    animation: blink 0.5s infinite;
+  }
+  @keyframes blink{
+    to { opacity: .0; }
+  }
+  .hero__flex, .container-animation{
+      display: flex;
+  }
+
+  .hero__flex div{color: #000;}
+  .hero__flex .header-sub-title {
+      font-size: inherit;
+      font-weight: inherit;
+  }
+  .hero__flex .blink{
+      font-weight: 100;
+      color: #7141FF;
+  }
+
+  #word {
+    border-right: 0.15em solid #7141FF;
+    animation: blink 0.75s step-end infinite;
+    width: max-content;
+  }
+
+  @keyframes blink {
+    from,
+    to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: #7141FF;
+    }
+  }
+
+/* -------------------------------------------------------------------------------- */
+/* ! Only for animation "Digitalizziamo" */
+/* -------------------------------------------------------------------------------- */
+@media (max-width: 1660px) {
+    .hero__flex {
+        display: block;
+    }
+}

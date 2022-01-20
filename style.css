@@ -158,12 +158,13 @@ li{/*margin-bottom: 8px;*/ font-size: 20px; font-weight: 300;}
 .hero{ display: flex; justify-content: center; align-items: flex-end; padding: 100px 150px 50px 150px; height: auto;}
 /* .hero h1{font-size: 60px;} */
 .hero p{font-size: 20px;}
-.hero__sx{flex-basis: 50%;
-
+.hero__sx{
+    flex-basis: 50%;
     /* height: 400px; */
     display: flex;
     flex-wrap: wrap;
-    align-content: flex-end;
+    align-content: flex-start;
+    flex-direction: column;
 }
 .hero__dx{
     flex-basis: 50%;
@@ -209,7 +210,7 @@ li{/*margin-bottom: 8px;*/ font-size: 20px; font-weight: 300;}
 
 /* Services */
 .tl__row__service{margin-top: 80px;}
-.tl__row__service i{margin-bottom: 40px;}
+.tl__row__service i{color: #7141FF; margin-bottom: 40px;}
 
 
 /* Web Design section */
@@ -393,11 +394,14 @@ input[type=submit]:hover{background: #7142ff;}
 /* -------------------------------------------------------------------------------- */
 @media (max-width: 998px) {
 
+    h1 {font-size: 2.7em;}
     .fb__c_4{flex-basis: 45%;}
     #button__to__top {right: 50px;}
 
     /* home */
     .post_preview {flex-basis: 100%;}
+    .hero {padding-left: 50px; padding-right: 50px;
+    .hero__sx{flex-shrink: 0;}
 
     /* cosa facciamo */
     .wp-block-cover__inner-container .tl__card{flex-basis: 100% !important; margin-left: 0px; margin-top: 16px;}
