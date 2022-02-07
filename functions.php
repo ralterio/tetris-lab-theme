@@ -67,6 +67,14 @@ if ( ! function_exists( 'tlt_scripts' ) ) {
 }
 add_action( 'wp_enqueue_scripts', 'tlt_scripts' );
 
+/*  Enqueue GSap
+/* ------------------------------------ */
+function theme_gsap_script() {
+    wp_enqueue_script( 'gsap-js', 'https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js', array(), false, true );
+    wp_enqueue_script( 'gsap-js2', get_template_directory_uri() . '/js/custom-gsap-scripts.js', array(), false, true );
+}
+add_action( 'wp_enqueue_scripts', 'theme_gsap_script' );
+
 /*  Register sidebars
 /* ------------------------------------ */
 if ( ! function_exists( 'tlt_sidebars' ) ) {

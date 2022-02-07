@@ -4,7 +4,9 @@
 
 <div class="hero">
         <div class="hero__sx">
+            <div class=".wrap">
             <p id="question__hero">Ti serve aiuto per la tua attività online?</p>
+            </div>
             <!-- Inizio mod.
 			<h1 id="hero__title">Digitalizziamo il tuo brand.</h1>
             fine mod.-->
